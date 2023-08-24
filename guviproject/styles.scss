@@ -1,0 +1,46 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f587a4;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(227, 102, 190), rgb(148, 220, 242));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(218, 154, 210), rgb(160, 229, 238));
+  }
+    
+h1 {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 26px;}
+  h2{text-align: center;}
+
+.gradient-custom1{
+  background: #a44a51;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(215, 94, 217), rgb(220, 229, 247));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(204, 132, 193), rgb(178, 182, 186))
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
